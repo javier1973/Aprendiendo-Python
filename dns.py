@@ -34,6 +34,7 @@ def alias():
 		#reiniciamos servicio
 		os.system("service bind9 restart") 
 	else:
+		print "No se han introducido los parámetros necesarios\n"
 		ayuda()
 
 # comprobamos tiene tosdos los argumentos y llamamos funcion
@@ -43,6 +44,7 @@ def direccion():
 		#reiniciamos servicio
 		os.system("service bind9 restart") 
 	else:
+		print "No se han introducido los parámetros necesarios\n"
 		ayuda()
 
 def add():#evaluamos si ingresan el segundo argumento correcto 
